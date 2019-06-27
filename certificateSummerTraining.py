@@ -7,11 +7,8 @@ def generateme(courseList):
     pyautogui.hotkey('alt','tab')
     time.sleep(2)
     pyautogui.press('down')
-    time.sleep(1)
     pyautogui.press('left')
-    time.sleep(1)
     pyautogui.press('left')
-    time.sleep(1)
     pyautogui.hotkey('ctrl','c')
     time.sleep(1)
     # Switch to Photoshop
@@ -21,13 +18,13 @@ def generateme(courseList):
     id = pyperclip.paste()
     id = id[:-2]
     pyautogui.click(481,160)
-    time.sleep(2)
+    time.sleep(1)
     pyautogui.hotkey('ctrl','a')
-    time.sleep(2)
+    time.sleep(1)
     pyautogui.hotkey('ctrl','v')
-    time.sleep(2)
+    time.sleep(1)
     pyautogui.hotkey('ctrl','enter')
-    time.sleep(2)
+    time.sleep(1)
     # Switch to excel
     pyautogui.hotkey('alt','tab')
     time.sleep(2)
@@ -71,10 +68,9 @@ def generateme(courseList):
     elif clip == dataAnal:
         pyautogui.click(courseList[2],courseList[3])
     elif clip == dataSci:
-        pyautogui.click(courseList[4],courseList[4])
+        pyautogui.click(courseList[4],courseList[5])
     elif clip == fullStack:
-        pyautogui.click(courseList[6],courseList[5])
-    
+        pyautogui.click(courseList[6],courseList[7])
         
     time.sleep(2)
     pyautogui.hotkey('ctrl','shift','s')
@@ -82,11 +78,15 @@ def generateme(courseList):
     pyautogui.typewrite(name)
     pyautogui.typewrite(" ")
     pyautogui.typewrite(id)
-    time.sleep(3)
+    time.sleep(2)
+    pyautogui.click(489,528)
+    time.sleep(1)
+    pyautogui.click(397,328)
+    time.sleep(1)
     pyautogui.press('enter')
-    time.sleep(6)
+    time.sleep(2)
     pyautogui.press('enter')
-    time.sleep(14)
+    time.sleep(2)
 
     # UnClick on the course
     if clip == cloudCource:
@@ -94,9 +94,9 @@ def generateme(courseList):
     elif clip == dataAnal:
         pyautogui.click(courseList[2],courseList[3])
     elif clip == dataSci:
-        pyautogui.click(courseList[4],courseList[4])
+        pyautogui.click(courseList[4],courseList[5])
     elif clip == fullStack:
-        pyautogui.click(courseList[6],courseList[5])
+        pyautogui.click(courseList[6],courseList[7])
     
     time.sleep(2)
 
@@ -109,17 +109,17 @@ time.sleep(1)
 #---------------------------------------------------------------
 
 courseList = []
-courseList[0] = 1140 # Cloud
-courseList[1] = 250
-courseList[2] = 1139 # DataAnal
-courseList[3] = 326
-courseList[4] = 1141 # DataSci
-courseList[5] = 287
-courseList[6] = 1142 # fullStack
-courseList[7] = 210
+courseList.append(1140) # Cloud
+courseList.append(250)
+courseList.append(1139) # DataAnal
+courseList.append(287)
+courseList.append(1141) # DataSci
+courseList.append(326)
+courseList.append(1142) # fullStack
+courseList.append(210)
 
 #---------------------------------------------------------------
 i = 0
-while i<39:
+while i<8:
     generateme(courseList)
     i=i+1
