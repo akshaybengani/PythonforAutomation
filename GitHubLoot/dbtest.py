@@ -17,14 +17,14 @@ wks = gc.open('Free Stuff').worksheet('hacktoberfest')
 '''print(wks.get_all_records())'''
 
 # To Add row at the end of the last row
-'''wks.append_row(['akshaybengani456@gmail.com','3623wxci'])'''
+'''wks.append_row(['akshaybengani456@gmail.com','123456'])'''
 
 # To Delete a row with an index
 '''wks.delete_row(2)'''
 
 # To get a position of a value
-'''print(wks.find('3623wxci')._col)'''
-'''print(wks.find('3623wxci')._row)'''
+'''print(wks.find('123456')._col)'''
+'''print(wks.find('123456')._row)'''
 
 # To get value of a particular cell with its cell ID
 # Example A1 A2 A10 B1 B2 B10
@@ -49,7 +49,7 @@ wks = gc.open('Free Stuff').worksheet('hacktoberfest')
 '''print(rown,coln)'''
 
 # Update data in a cell
-'''wks.update_acell('b4','3623wxci')'''
+'''wks.update_acell('b4','123456')'''
     # row x column
 '''wks.update_cell(4,1,'akshaybengani789@gmail.com')'''
 
