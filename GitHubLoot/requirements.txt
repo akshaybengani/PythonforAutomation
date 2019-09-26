@@ -1,0 +1,3 @@
+pip3 install gspread
+pip3 install oauth2client
+pip3 install PyOpenSSL
