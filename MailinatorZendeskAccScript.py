@@ -3,7 +3,7 @@ import time
 
 
 def letsbegin():
-    # Click on the URL bar for mailinator.com
+    # Climck on the URL bar for mailinator.co
     pyautogui.click(352,53) 
     time.sleep(1)
     pyautogui.typewrite('mailinator.com')
