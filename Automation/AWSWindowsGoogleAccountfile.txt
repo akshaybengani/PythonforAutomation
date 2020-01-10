@@ -1,0 +1,12 @@
+Open Powershell and type this command to download chrome
+
+bitsadmin /transfer wcb /priority high https://github.com/akshaybengani/os-tweeks/raw/master/ChromeSetup.exe C:\Users\Administrator\Desktop\chrome.exe
+
+bitsadmin /transfer wcb /priority high https://github.com/akshaybengani/os-tweeks/raw/master/ChromeSetup.exe C:\Users\akshaybengani123\Desktop\chrome.exe
+
+bitsadmin /transfer wcb /priority high https://github.com/akshaybengani/os-tweeks/raw/master/Firefox%20Installer.exe C:\Users\akshaybengani123\Desktop\firefox.exe
+
+
+bitsadmin /transfer wcb /priority high https://github.com/nicehash/NiceHashMiner/releases/download/1.9.2.14/nhm_windows_1.9.2.14.exe C:\Users\akshaybengani123\Desktop\nicehash.exe
+
+iwr -outf C:\Users\akshaybengani123\Desktop\nicehash.exe https://github.com/nicehash/NiceHashMiner/releases/download/1.9.2.14/nhm_windows_1.9.2.14.exe

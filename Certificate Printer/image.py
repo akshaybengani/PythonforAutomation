@@ -1,0 +1,11 @@
+import cv2
+cap=cv2.imread("E:\ProgrammingData\Externel Events\Certificate Printer\industrialVisit.jpg")
+#cv2.namedWindow('image',cv2.WINDOW_AUTOSIZE)
+#cv2.resizeWindow('image',600,600)
+ims = cv2.resize(cap,(600,600))
+cv2.imshow("Output",ims)
+#if cv2.waitKey(0) & 0xff==ord('q')
+cv2.waitKey()
+cv2.destroyAllWindows()
+#cv2.putText(cap,"Akshay Bengani",)
+#cv2.imwrite("AkshayBengani.jpg",cap)

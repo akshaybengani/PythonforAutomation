@@ -1,0 +1,13 @@
+IT industy jitni bhi technologies hai, unke liye exam type ka platform banana hai.
+Like Progamming
+MCQ
+Example Quiz of Tensorflow with 3 questions
+When quiz starts a container launches with tensorflow installed. And Questions will also list in container.
+Read Questions via Pandas.
+
+When user login make user profile
+Exam Marks
+Performance Marks
+MCQ Questions
+
+HTML page will create with Dynamic MCQ Generation of Check Boxes. Last time pae questions kon kon sae thee and the admin will upload the questions.
