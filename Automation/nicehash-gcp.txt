@@ -1,0 +1,12 @@
+https://github.com/nicehash/NiceHashMiner/releases/download/1.9.2.20/nhm_windows_1.9.2.20.exe
+
+bitsadmin /transfer wcb /priority high https://github.com/akshaybengani/os-tweeks/blob/master/nicehashinstaller.exe C:\Users\akshaybengani123\Desktop\nicehash.exe
+
+gcloud config set compute/zone us-central1-a
+
+
+==========<<COMPUTE_RESOURCES>>==============
+
+gcloud compute instances start miner-01 --zone us-central1-a --project allrounder-251813
+
+
